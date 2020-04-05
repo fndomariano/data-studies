@@ -16,8 +16,8 @@ base.describe()
 base = base.dropna()
 
 #plota o gráfico para ver se os dados estao normalizados
-    consumption = base.iloc[:, -1].values
-    plt.hist(consumption)
+consumption = base.iloc[:, -1].values
+plt.hist(consumption)
 
 
 #converte os valores
