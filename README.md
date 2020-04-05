@@ -1,6 +1,6 @@
 # Data Studies
 
-The objective this repository is store my studies about data. I like to write about them and I will let here links to my blog posts too.
+The objective of this repository is to store my studies about data. I like to write about them and I will let here links to my blog posts too.
 
 ## Install
 
