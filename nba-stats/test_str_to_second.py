@@ -15,4 +15,12 @@ class TestConvertDate(unittest.TestCase):
 
 	def test_with_second(self):
 		convertion = str_to_second('26')		
-		self.assertTrue(convertion == 26)
+		self.assertTrue(convertion == 1560)
+
+	def test_with_integer(self):
+		convertion = str_to_second(4)
+		self.assertTrue(convertion == 240)
+
+	def test_with_float(self):
+		convertion = str_to_second(8.0)
+		self.assertTrue(convertion == 480)

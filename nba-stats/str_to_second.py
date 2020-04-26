@@ -2,6 +2,9 @@
 
 def str_to_second(time):
 
+	if isinstance(time, int) or isinstance(time, float):
+		return time * 60
+
 	time = time.split(':')
 
 	if (len(time) == 3):
@@ -15,4 +18,4 @@ def str_to_second(time):
 		seconds = int(time[1])
 		return (minutes + seconds)	
 
-	return int(time[0])
+	return int(time[0]) * 60
